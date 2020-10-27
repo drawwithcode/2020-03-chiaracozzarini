@@ -37,12 +37,12 @@ function setup() {
   button.position(windowWidth/2-50, windowHeight/2+50);
   button.style('font-family','Share Tech Mono');
   //typeWriter(welcome, 0, windowWidth/6, windowHeight/2, 70);
-  textFont('Share Tech Mono');
+  textFont("Share Tech Mono");
   textSize(40);
   fill('white');
   text(welcome, windowWidth/6, windowHeight/2);
 
-  textFont('Share Tech Mono');
+  textFont("Share Tech Mono");
   textSize(15);
   fill('white');
   text(welcome2, windowWidth/11, (windowHeight/4)*3-40);
